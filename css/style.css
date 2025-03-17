@@ -45,20 +45,19 @@ body {
 .card__header__image {
   width: 48px;
   height: 48px;
-  object-fit: cover;
   border-radius: 9999px;
 }
 
 .card__header__info {
   display: flex;
   flex-direction: column;
+  gap: 1px;
 }
 
 .card__header__name {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  text-align: justify;
   color: #171717;
   white-space: nowrap;
   overflow: hidden;
