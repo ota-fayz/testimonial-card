@@ -18,14 +18,13 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   min-width: 100vw;
   background-image: linear-gradient(to bottom, #f9fafb, #d2d6db);
 }
 
 .card {
+  margin: 200px auto 0;
   width: 100%;
   max-width: 340px;
   display: flex;
@@ -35,6 +34,7 @@ body {
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0px 1px 2px -1px rgb(0 0 0 / 0.10), 0px 1px 3px 0 rgb(0 0 0 / 0.10);
+  height: 100%;
 }
 
 .card__header {
@@ -46,7 +46,7 @@ body {
   width: 48px;
   height: 48px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 9999px;
 }
 
 .card__header__info {
